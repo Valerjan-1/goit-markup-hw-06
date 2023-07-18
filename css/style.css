@@ -1288,11 +1288,6 @@ input {
   }
 }
 
-.menu-toggle:hover,
-.menu-toggle:focus {
-  background-color: rgba(0, 0, 0, 0.1);
-}
-
 .menu-container {
   display: flex;
   flex-direction: column;
@@ -1353,6 +1348,7 @@ input {
   outline: none;
 }
 .menu-toggle-icon {
+  outline: none;
   stroke: #2e2f42;
 }
 
