@@ -157,8 +157,7 @@ input {
     gap: 40px;
   }
 }
-.list-header-contacts {
-}
+
 .link-logo {
   position: relative;
   color: var(--color-logo-link);
@@ -491,10 +490,7 @@ input {
   flex-direction: column;
   gap: 72px;
 }
-@media only screen and (min-width: 429px) and (max-width: 767px) {
-  .benefits-list {
-  }
-}
+
 @media only screen and (min-width: 768px) and (max-width: 1157px) {
   .benefits-list {
     flex-wrap: wrap;
@@ -510,8 +506,7 @@ input {
     gap: 24px;
   }
 }
-.benefits-item {
-}
+
 @media only screen and (min-width: 768px) and (max-width: 1157px) {
   .benefits-item {
     flex-direction: row;
@@ -816,10 +811,7 @@ input {
   background-color: var(--color-text-header);
   padding: 100px 0;
 }
-@media only screen and (min-width: 768px) {
-  .bg-footer {
-  }
-}
+
 @media only screen and (min-width: 1158px) {
   .bg-footer {
     padding: 100px 0;
@@ -862,10 +854,7 @@ input {
   letter-spacing: 0.03em;
   text-decoration: none;
 }
-@media only screen and (min-width: 1158px) {
-  .link-logo-footer {
-  }
-}
+
 .footer-container {
   display: flex;
   flex-direction: column;
@@ -966,13 +955,9 @@ input {
   fill: #f4f4fd;
 }
 .footer-form {
-  /* For PC margin-left: 80px; */
   width: 100%;
 }
-.form-input-btn {
-  /* for pc display: flex;
-  gap: 24px; */
-}
+
 @media only screen and (min-width: 768px) {
   .form-input-btn {
     display: flex;
@@ -991,10 +976,7 @@ input {
   display: flex;
   gap: 24px;
 }
-@media only screen and (min-width: 1158px) {
-  .footer-form-label {
-  }
-}
+
 .footer-input {
   color: var(--bg-color);
   background-color: transparent;
@@ -1381,15 +1363,12 @@ input {
   stroke: #2e2f42;
 }
 
-.mobile-contacts {
-}
 .mobile-header-contacts {
   display: flex;
   flex-direction: column;
   gap: 40px;
 }
-.modile-list-contacts {
-}
+
 .modile-nomber {
   color: #4d5ae5;
   font-family: inherit;
