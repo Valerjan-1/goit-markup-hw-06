@@ -836,7 +836,7 @@ input {
 @media only screen and (min-width: 1158px) {
   .text-footer {
     min-width: 264px;
-    margin-bottom: 0;
+    margin-bottom: 16px;
   }
 }
 .color-logo-footer {
@@ -957,7 +957,11 @@ input {
 .footer-form {
   width: 100%;
 }
-
+@media only screen and (min-width: 1158px) {
+  .footer-form {
+    margin-left: 80px;
+  }
+}
 @media only screen and (min-width: 768px) {
   .form-input-btn {
     display: flex;
